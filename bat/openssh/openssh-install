@@ -1,0 +1,19 @@
+#!/bin/sh
+pkg install openssh
+sshd
+ip a
+echo    
+echo =====================================================
+echo    
+echo User:
+whoami
+echo    
+echo Port:
+echo 8021
+echo    
+echo Comand to connect: ssh [user]@[ip_address] -p [port]
+echo    
+echo New password: passwd [user]
+echo    
+echo =====================================================
+echo    

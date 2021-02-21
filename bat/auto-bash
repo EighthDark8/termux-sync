@@ -1,0 +1,8 @@
+#!/bin/sh
+cd ftp
+chmod u+x ftp-start
+chmod u+x ftp-stop
+chmod u+x ftp-install
+cd ..
+cd openssh
+chmod u+x openssh-install
