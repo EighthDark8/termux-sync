@@ -2,3 +2,4 @@
 pkg install -y busybox termux-services
 source $PREFIX/etc/profile.d/start-services.sh
 sv-enable ftpd
+termux-setup-storage
